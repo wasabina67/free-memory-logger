@@ -15,3 +15,9 @@ function log_free_memory() {
     local free_memory=$(free --mega | awk '/^Mem:/{print $4}')
     echo "${timestamp},${free_memory}"
 }
+
+echo 'timestamp,free_memory' > "${OUTPUT_CSV}"
+while true; do
+    log_free_memory >> "${OUTPUT_CSV}"
+    sleep "${INTERVAL}"
+done
