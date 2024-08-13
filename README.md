@@ -6,7 +6,7 @@ Logging free memory in CSV and graph it
 ### Create output.csv
 
 ```bash
-bash src/log_free_memory.sh 
+bash src/log_free_memory.sh
 ```
 
 ### output.csv
@@ -22,7 +22,7 @@ timestamp,free_memory
 ### Create output.png
 
 ```bash
-python src/graph.py 
+python src/graph.py
 ```
 
 ### output.png
