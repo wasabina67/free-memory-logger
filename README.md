@@ -3,7 +3,7 @@ Logging free memory in CSV and graph it
 
 ## Run
 
-### aaa
+### Create output.csv
 
 ```bash
 bash src/log_free_memory.sh 
@@ -19,7 +19,7 @@ timestamp,free_memory
 2024-08-13T11:10:41+09:00,6290
 ```
 
-### aaa
+### Create output.png
 
 ```bash
 python src/graph.py 
