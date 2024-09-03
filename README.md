@@ -1,5 +1,5 @@
 # free-memory-logger
-Logging free memory in CSV and graph it
+Logging free memory in CSV and Graph it
 
 ## Run
 
