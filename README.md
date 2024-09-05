@@ -1,6 +1,16 @@
 # free-memory-logger
 Logging free memory in CSV and Graph it
 
+## Setup
+
+```bash
+pipenv shell
+```
+
+```bash
+pipenv sync
+```
+
 ## Run
 
 ### 1. Create output.csv
