@@ -13,7 +13,7 @@ pipenv sync
 
 ## Run
 
-### 1. Create output.csv
+### Create output.csv
 
 ```bash
 bash src/log_free_memory.sh
@@ -29,7 +29,7 @@ timestamp,free_memory
 2024-08-13T11:10:41+09:00,6290
 ```
 
-### 2. Create output.png
+### Create output.png
 
 ```bash
 python src/graph.py
