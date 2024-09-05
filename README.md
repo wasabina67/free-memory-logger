@@ -19,7 +19,7 @@ pipenv sync
 bash src/log_free_memory.sh
 ```
 
-### output.csv
+output.csv
 
 ```csv
 timestamp,free_memory
