@@ -35,6 +35,6 @@ timestamp,free_memory
 python src/graph.py
 ```
 
-### output.png
+output.png
 
 ![output](https://github.com/user-attachments/assets/fa09ff1d-f256-4180-9159-4551fdca06c1)
